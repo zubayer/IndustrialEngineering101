@@ -1,0 +1,13 @@
+# Generated OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+# Temporary files and local outputs
+__pycache__/
+.pytest_cache/
+node_modules/
+.env
+.env.*
+!.env.example

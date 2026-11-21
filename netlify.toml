@@ -1,0 +1,10 @@
+# Deploy this static application without npm install or a build step.
+# The root index.html loads assets/css/app.css and assets/js/app.js.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
